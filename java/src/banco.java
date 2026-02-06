@@ -24,7 +24,7 @@ class Persona {
     public void sacardinero(int sacardinero){
         if (dinero<sacardinero){
             System.out.println("Saldo insuficiente");
-            
+
         } else {
             dinero-=sacardinero;
             System.out.println("Saldo actual: "+dinero+"€");
